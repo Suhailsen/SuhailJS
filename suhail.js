@@ -1,6 +1,6 @@
 // Target number == 11
 
-var twoSum = function(nums, target) {
+var SumOfTwo = function(nums, target) {
     var suhail=[];
     //   Loop
     for(var s=0;s<nums.length;s++){
@@ -18,5 +18,5 @@ var twoSum = function(nums, target) {
     // Return   
       return suhail;   
     };
-    console.log(twoSum([3, 7, 9, 2],11))
+    console.log(SumOfTwo([3, 7, 9, 2],11))
     // The output is [3, 2], because 2 at index 3 plus + 9 at index 2 will give 11, and our target is 11
